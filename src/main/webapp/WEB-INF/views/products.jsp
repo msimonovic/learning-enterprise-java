@@ -13,20 +13,16 @@
 			</div>
 			<div class="col-xs-8 col-sm-9">
 				<div class="row thumbnail" style="border-radius: 0px">
-					<div class="hidden-xs col-sm-7 col-md-6 col-lg-5">
+					<div class="hidden-xs col-sm-7 col-md-6 col-lg-5" style="margin: 10px 0px 10px 0px">
 						<img src="resources/app/img/pic300250.png" alt="Product">
 					</div>
 					<div class="col-xs12 col-sm-5 col-md-6 col-lg-7">
-						<h3>Product 01 name</h3>
+						<div class="text-h1">Product 01 name</div>
 						<p>Product description... Lorem ipsum dolor sit amet</p>
 						<br>
 						<div>
-							<h5>
-								Price: <span>21.000 $</span>
-							</h5>
-							<h5>
-								Status: <span class="text-success">Available</span>
-							</h5>
+							<p>Price: <span>21.000 $</span></p>
+							<p>Status: <span class="text-success">Available</span></p>
 						</div>
 						<br>
 						<div>
@@ -35,20 +31,16 @@
 					</div>
 				</div>
 				<div class="row thumbnail" style="border-radius: 0px">
-					<div class="hidden-xs col-sm-7 col-md-6 col-lg-5">
+					<div class="hidden-xs col-sm-7 col-md-6 col-lg-5" style="margin: 10px 0px 10px 0px">
 						<img src="resources/app/img/pic300250.png" alt="Product">
 					</div>
 					<div class="col-xs12 col-sm-5 col-md-6 col-lg-7">
-						<h3>Product 01 name</h3>
+						<div class="text-h1">Product 01 name</div>
 						<p>Product description... Lorem ipsum dolor sit amet</p>
 						<br>
 						<div>
-							<h5>
-								Price: <span>21.000 $</span>
-							</h5>
-							<h5>
-								Status: <span class="text-success">Available</span>
-							</h5>
+							<p>Price: <span>21.000 $</span></p>
+							<p>Status: <span class="text-success">Available</span></p>
 						</div>
 						<br>
 						<div>
@@ -57,20 +49,16 @@
 					</div>
 				</div>
 				<div class="row thumbnail" style="border-radius: 0px">
-					<div class="hidden-xs col-sm-7 col-md-6 col-lg-5">
+					<div class="hidden-xs col-sm-7 col-md-6 col-lg-5" style="margin: 10px 0px 10px 0px">
 						<img src="resources/app/img/pic300250.png" alt="Product">
 					</div>
 					<div class="col-xs12 col-sm-5 col-md-6 col-lg-7">
-						<h3>Product 01 name</h3>
+						<div class="text-h1">Product 01 name</div>
 						<p>Product description... Lorem ipsum dolor sit amet</p>
 						<br>
 						<div>
-							<h5>
-								Price: <span>21.000 $</span>
-							</h5>
-							<h5>
-								Status: <span class="text-success">Available</span>
-							</h5>
+							<p>Price: <span>21.000 $</span></p>
+							<p>Status: <span class="text-success">Available</span></p>
 						</div>
 						<br>
 						<div>
@@ -79,20 +67,16 @@
 					</div>
 				</div>
 				<div class="row thumbnail" style="border-radius: 0px">
-					<div class="hidden-xs col-sm-7 col-md-6 col-lg-5">
+					<div class="hidden-xs col-sm-7 col-md-6 col-lg-5" style="margin: 10px 0px 10px 0px">
 						<img src="resources/app/img/pic300250.png" alt="Product">
 					</div>
 					<div class="col-xs12 col-sm-5 col-md-6 col-lg-7">
-						<h3>Product 01 name</h3>
+						<div class="text-h1">Product 01 name</div>
 						<p>Product description... Lorem ipsum dolor sit amet</p>
 						<br>
 						<div>
-							<h5>
-								Price: <span>21.000 $</span>
-							</h5>
-							<h5>
-								Status: <span class="text-success">Available</span>
-							</h5>
+							<p>Price: <span>21.000 $</span></p>
+							<p>Status: <span class="text-success">Available</span></p>
 						</div>
 						<br>
 						<div>
@@ -101,20 +85,16 @@
 					</div>
 				</div>
 				<div class="row thumbnail" style="border-radius: 0px">
-					<div class="hidden-xs col-sm-7 col-md-6 col-lg-5">
+					<div class="hidden-xs col-sm-7 col-md-6 col-lg-5" style="margin: 10px 0px 10px 0px">
 						<img src="resources/app/img/pic300250.png" alt="Product">
 					</div>
 					<div class="col-xs12 col-sm-5 col-md-6 col-lg-7">
-						<h3>Product 01 name</h3>
+						<div class="text-h1">Product 01 name</div>
 						<p>Product description... Lorem ipsum dolor sit amet</p>
 						<br>
 						<div>
-							<h5>
-								Price: <span>21.000 $</span>
-							</h5>
-							<h5>
-								Status: <span class="text-success">Available</span>
-							</h5>
+							<p>Price: <span>21.000 $</span></p>
+							<p>Status: <span class="text-success">Available</span></p>
 						</div>
 						<br>
 						<div>

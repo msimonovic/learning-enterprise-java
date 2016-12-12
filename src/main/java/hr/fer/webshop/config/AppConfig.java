@@ -1,4 +1,4 @@
-package hr.fer.webshop2.config;
+package hr.fer.webshop.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "hr.fer.webshop2")
+@ComponentScan(basePackages = "hr.fer.webshop")
 public class AppConfig  extends WebMvcConfigurerAdapter { 
 
 	@Override

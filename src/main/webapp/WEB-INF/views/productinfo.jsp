@@ -17,10 +17,10 @@
 						<img src="resources/app/img/pic300250.png" alt="Product">
 					</div>
 					<div class="col-xs12 col-sm-5 col-md-6 col-lg-7">
-						<h3>Product 01 name</h3>
+						<div class="text-h1">Product 01 name</div>
 						<p>Product description... Lorem ipsum dolor sit amet</p>
 						<br>
-						<h4>Specification</h4>
+						<div class="text-h2">Specification</div>
 						<p>Product description... Lorem ipsum dolor sit amet
 							Product description... Lorem ipsum dolor sit amet
 							Product description... Lorem ipsum dolor sit amet
