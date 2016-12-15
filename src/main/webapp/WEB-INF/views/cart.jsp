@@ -45,7 +45,7 @@
 					</div>
 					
 					<a class="btn btn-success" href="signin">CHECKOUT</a>
-					<a class="btn btn-danger" href="products">CANCEL</a>
+					<a class="btn btn-danger" href="product">CANCEL</a>
 				</div>
 			</div>
 		</div>

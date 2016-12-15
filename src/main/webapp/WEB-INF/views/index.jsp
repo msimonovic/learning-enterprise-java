@@ -59,28 +59,28 @@
 		<div class="row row-offset">
 			<div class="col-xs-4 col-sm-4 colored-div">
 				<ul class="list-unstyled product-list">
-					<li><a href="products">Computer Cases</a></li>
-					<li><a href="products">CPUs / Processors</a></li>
-					<li><a href="products">Fans, Heatsinks, Cooling</a></li>
-					<li><a href="products">GPUs/Video Graphic Cards</a></li>
+					<li><a href="product">Computer Cases</a></li>
+					<li><a href="product">CPUs / Processors</a></li>
+					<li><a href="product">Fans, Heatsinks, Cooling</a></li>
+					<li><a href="product">GPUs/Video Graphic Cards</a></li>
 				</ul>
 			</div>
 	
 			<div class="col-xs-4 col-sm-4 colored-div">
 				<ul class="list-unstyled product-list">
-					<li><a href="products">Motherboards</a></li>
-					<li><a href="products">Hard Drives, Storage</a></li>
-					<li><a href="products">Hard Drive Enclosures</a></li>
-					<li><a href="products">Interface / Add-On Cards</a></li>
+					<li><a href="product">Motherboards</a></li>
+					<li><a href="product">Hard Drives, Storage</a></li>
+					<li><a href="product">Hard Drive Enclosures</a></li>
+					<li><a href="product">Interface / Add-On Cards</a></li>
 				</ul>
 			</div>
 	
 			<div class="col-xs-4 col-sm-4 colored-div">
 				<ul class="list-unstyled product-list">
-					<li><a href="products">Memory (RAM)</a></li>
-					<li><a href="products">Optical Drives</a></li> 
-					<li><a href="products">Power Supplies</a></li>
-					<li><a href="products">Racks/Accessories</a></li>
+					<li><a href="product">Memory (RAM)</a></li>
+					<li><a href="product">Optical Drives</a></li> 
+					<li><a href="product">Power Supplies</a></li>
+					<li><a href="product">Racks/Accessories</a></li>
 				</ul>
 			</div>
 		</div>
