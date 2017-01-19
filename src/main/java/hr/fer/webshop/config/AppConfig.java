@@ -7,6 +7,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
@@ -18,6 +19,14 @@ public class AppConfig extends WebMvcConfigurerAdapter {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/**").addResourceLocations("/resources/");
+    }
+    
+    @Bean
+    public InternalResourceViewResolver viewResolver() {
+        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
+        viewResolver.setPrefix("/WEB-INF/views");
+        viewResolver.setSuffix(".jsp");
+        return viewResolver;
     }
 
     @Bean
@@ -32,8 +41,10 @@ public class AppConfig extends WebMvcConfigurerAdapter {
                 registry.addViewController("/cart/**").setViewName(FORWARD_2_INDEX_HTML);
                 registry.addViewController("/userinfo/**").setViewName(FORWARD_2_INDEX_HTML);
                 registry.addViewController("/signin").setViewName(FORWARD_2_INDEX_HTML);
+                registry.addViewController("/login").setViewName("/login");
             }
         };
     }
 
 }
+
