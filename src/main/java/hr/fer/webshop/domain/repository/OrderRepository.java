@@ -7,5 +7,4 @@ import hr.fer.webshop.domain.entity.Order;
 
 @Repository
 public interface OrderRepository extends JpaRepository<Order, Long> {
-
 }

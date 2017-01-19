@@ -7,11 +7,15 @@
 *~.nib
 .classpath
 .settings/
-bin
+logs/
 
 # mvn ignore
 *target*
 *.war
 *.ear
 *.classh
+
+# node ignore
+node_modules/
+npm-debug.log
 

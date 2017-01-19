@@ -36,6 +36,7 @@ public class PersistenceConfig {
 
     @Bean
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
+
         HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         Boolean isGenerateDdlEnabled = Boolean.valueOf(env.getProperty("hibernate.generateDdl"));
         vendorAdapter.setGenerateDdl(isGenerateDdlEnabled);

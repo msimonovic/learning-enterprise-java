@@ -2,47 +2,47 @@ package hr.fer.webshop.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@Controller
+
+// @Controller
 public class WebshopController {
 
-	private final Logger logger = LoggerFactory.getLogger(WebshopController.class);
+    private final Logger logger = LoggerFactory.getLogger(WebshopController.class);
 
-	@RequestMapping("/")
-	public String root() {
-		logger.debug("Routing: /");
-		return "index";
-	}
+    @RequestMapping("/")
+    public String root() {
+        logger.debug("Routing: /");
+        return "index";
+    }
 
-	@RequestMapping("/product")
-	public String products() {
-		logger.debug("Routing: /product");
-		return "product";
-	}
+    @RequestMapping("/product")
+    public String products() {
+        logger.debug("Routing: /product");
+        return "product";
+    }
 
-	@RequestMapping("/productinfo")
-	public String productinfo() {
-		logger.debug("Routing: /productinfo");
-		return "productinfo";
-	}
+    @RequestMapping("/productinfo")
+    public String productinfo() {
+        logger.debug("Routing: /productinfo");
+        return "productinfo";
+    }
 
-	@RequestMapping("/cart")
-	public String cart() {
-		logger.debug("Routing: /cart");
-		return "cart";
-	}
+    @RequestMapping("/cart")
+    public String cart() {
+        logger.debug("Routing: /cart");
+        return "cart";
+    }
 
-	@RequestMapping("/userinfo")
-	public String userinfo() {
-		logger.debug("Routing: /userinfo");
-		return "userinfo";
-	}
+    @RequestMapping("/userinfo")
+    public String userinfo() {
+        logger.debug("Routing: /userinfo");
+        return "userinfo";
+    }
 
-	@RequestMapping("/signin")
-	public String signin() {
-		logger.debug("Routing: /signin");
-		return "signin";
-	}
+    @RequestMapping("/signin")
+    public String signin() {
+        logger.debug("Routing: /signin");
+        return "signin";
+    }
 }

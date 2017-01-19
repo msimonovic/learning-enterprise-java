@@ -17,66 +17,74 @@ import javax.persistence.Table;
 @Table(name = "[order]")
 public class Order implements Serializable {
 
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name = "[id]")
-	private Long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "[id]")
+    private Long id;
 
-	@Column(name = "[description]")
-	private String description;
+    @Column(name = "[description]")
+    private String description;
 
-	@Column(name = "[order_date]")
-	private Date orderDate;
+    @Column(name = "[order_date]")
+    private Date orderDate;
 
-	@ManyToOne
-	private User user;
+    @ManyToOne
+    private User user;
 
-	@ManyToOne
-	private OrderState orderState;
+    @ManyToOne
+    private OrderState orderState;
 
-	@ManyToMany
-	private List<Product> products;
+    @ManyToMany
+    private List<Product> products;
 
-	public Long getId() {
-		return id;
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public Date getOrderDate() {
+        return orderDate;
+    }
+
+    public void setOrderDate(Date orderDate) {
+        this.orderDate = orderDate;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public OrderState getOrderState() {
+        return orderState;
+    }
+
+    public void setOrderState(OrderState orderState) {
+        this.orderState = orderState;
+    }
+
+	public List<Product> getProducts() {
+		return products;
 	}
 
-	public void setId(Long id) {
-		this.id = id;
+	public void setProducts(List<Product> products) {
+		this.products = products;
 	}
-
-	public String getDescription() {
-		return description;
-	}
-
-	public void setDescription(String description) {
-		this.description = description;
-	}
-
-	public Date getOrderDate() {
-		return orderDate;
-	}
-
-	public void setOrderDate(Date orderDate) {
-		this.orderDate = orderDate;
-	}
-
-	public User getUser() {
-		return user;
-	}
-
-	public void setUser(User user) {
-		this.user = user;
-	}
-
-	public OrderState getOrderState() {
-		return orderState;
-	}
-
-	public void setOrderState(OrderState orderState) {
-		this.orderState = orderState;
-	}
-
+    
 }

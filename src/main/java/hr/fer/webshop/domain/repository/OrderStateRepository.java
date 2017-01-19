@@ -6,6 +6,5 @@ import org.springframework.stereotype.Repository;
 import hr.fer.webshop.domain.entity.OrderState;
 
 @Repository
-public interface OrderStateRepository extends JpaRepository<OrderState, Long>{
-
+public interface OrderStateRepository extends JpaRepository<OrderState, Long> {
 }

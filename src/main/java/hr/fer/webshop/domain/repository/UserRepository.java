@@ -6,6 +6,5 @@ import org.springframework.stereotype.Repository;
 import hr.fer.webshop.domain.entity.User;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, Long>{
-
+public interface UserRepository extends JpaRepository<User, Long> {
 }

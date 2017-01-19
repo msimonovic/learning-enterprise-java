@@ -1,5 +1,5 @@
-<div id="sidenav" data-spy="affix" data-offset-top="0" style="margin-right: 10px;">
-	<h3>Products</h3>
+<div id="sidenav" data-spy="affix" data-offset-top="0">
+	<h1>Products</h1>
 	<ul id="left-product-list" class="list-unstyled">
 		<li><a href="product">Computer Cases</a></li>
 		<li><a href="product">CPUs / Processors</a></li>
