@@ -8,7 +8,7 @@
 			</div>
 			<div class="col-xs-8">
 				<h4 align="right">
-					<a class="navbar-title-link" href="signin">Log In | Sign Up </a> <img src="resources/app/img/cart.png">
+					<a class="navbar-title-link" href="signin">Log In | Sign Up </a> <img src="app/img/cart.png">
 				</h4>
 			</div>
 		</div>

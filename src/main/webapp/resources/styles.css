@@ -16,10 +16,14 @@ div.padding-10 {
 div.margin-right-5 {
 	margin-right: 5px;
 }
+.center-horizontal {
+	position: relative;
+	left: 25%;
+}
 
 /* Container */
 .container-navbar-offset {
-	margin-top: 70px;
+	margin-top: 80px;
 }
 
 /* BS Carousel */
